@@ -11,8 +11,6 @@
 #include <string>
 
 
-
-
 // Fahrenheit function
 void Fahrenheit() {
     // Initializing variables
@@ -20,7 +18,7 @@ void Fahrenheit() {
 
     float fahTemp;
     // Initializing celTemp
-    
+
     std::string celTemp;
     float celTempFloat;
     // Getting celTemp
