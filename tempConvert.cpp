@@ -29,7 +29,7 @@ void Fahrenheit() {
         celTempFloat = std::stof(celTemp);
 
         // Calculating fahTemp
-        fahTemp = celTempFloat * (9 / 5) + 32;
+        fahTemp = 1.8 * celTempFloat + 32;
 
         // Printing results
         std::cout << "\n";
